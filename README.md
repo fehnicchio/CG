@@ -1,6 +1,18 @@
-# CG
+# Assets da disciplina MATA65 - 2022.2
 
-##In this project I had to create a solar sistem using JavaScript with THREE.js
-##This project was a part of the course Image processing.
+Aqui voce poderá encontrar todos arquivos necessários para rodar os códigos exemplo dos Labs. Temos:
 
-###To view the HTML file you need to download the folder Assets with the .js and .html files.
+1. O código base do *framework Three.JS* - essa será a versão que utilizaremos até o final do semestre. 
+2. Modelos 3D
+3. Texturas
+4. Imagens
+5. arquivos css para as página dos Labs.
+
+Esse repositório poderá ser atualizado ao longo do semestre para acrescentar novos Assets para as atividades de Lab e/ou trabalhos. 
+
+```
+Importante:   Todos os códigos dos Labs presumem que esse diretório esta em uma localização 
+              relativa na árvore de diretórios no mesmo nível do código dos Labs. Você pode 
+              modificar essa organização como quiser, porém terá de editar os códigos dos 
+              Labs para que eles funcionem com os Assets em outros diretorios. 
+``` 
