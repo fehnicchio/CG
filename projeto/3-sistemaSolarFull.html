@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="icon" type="image/x-icon" href="../Assets/icons/icon.png">
+        <title>Sistema Solar em Three.js</title>
+    </head>
+
+    <body>
+        <h3 id="output-text">Sistema Solar em Three.js</h3>
+        <canvas id="threejs-canvas"></canvas>
+
+		<script src="../Assets/scripts/three.js/build/three.min.js"></script>
+        <script type="module" src="./3-sistemaSolarFull.js" onerror="handleError()"></script>
+
+        <script>
+            function handleError() {
+                console.error("Failed to load 3-sistemaSolarFull.js");
+                document.getElementById("output-text").textContent =
+                    "Error: Sistema Solar não carregado.";
+            }
+        </script>
+    </body>
+</html>
+
